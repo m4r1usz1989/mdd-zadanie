@@ -1,0 +1,36 @@
+.post-section {
+
+    article {
+        background: #f7f7f7;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 26px;
+        color: #222;
+        margin-bottom: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    &__item {
+        margin-bottom: 15px;
+        list-style: none;
+        background: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__body {
+        margin-top: 10px;
+    }
+}
